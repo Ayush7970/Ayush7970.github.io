@@ -534,18 +534,20 @@ input[type="radio"]{
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
     padding: 0 20px;
 }
 
 
+
 /* Activities list styling */
 .activities-list {
+    padding-top: 20px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    gap: 20px;
+    gap: 40px;
 }
 
 .activity {
