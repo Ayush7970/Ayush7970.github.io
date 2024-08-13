@@ -132,5 +132,24 @@
     </div>
 </div>
 
+<script>
+    const scriptURL = "https://script.google.com/macros/s/AKfycbyMAwikQ7cKn1V_KhMxAUbZxDGkjLJQVc8RD9tW_8aO18E-fIo1n5EMcsguBxaj9QphIw/exec"
+    const form = document.forms["submit-to-google-sheet"]
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "messsage sent successfully"
+            setTimeou(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+</script>
+
 </body>
 </html
