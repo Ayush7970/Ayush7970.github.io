@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/bfb6abb21e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#services">My Portfolio</a></li>
+                <li><a href="project.html">Projects</a></li>
+                <li><a href="work_ex.html">Work Experience</a></li>
+                <li><a href="activity.html">Activities</a></li>
+                <li><a href="project.html#contact">Contact</a></li>
+                <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>My Projects</p>
+            <h1>Hey, welcome to my collection of my Computer Science projects,
+                showcasing my work across various languages and innovative ideas.</h1>
+            <h2>Scroll down to explore detailed information about my projects.
+            </h2>
+        </div>
+    </div>
+</div>
+
+
+<!----------------- projects  --------------------->
+
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/project1.png" alt="">
+                <div class="layer">
+                    <h3>ChatNexus: Large Language Model using PyTorch</h3>
+                    <p>• Developed a GPT-based Language Model using PyTorch, leveraging multi-head self-attention mechanisms and
+                        transformer blocks to enhance text generation capabilities, optimizing model performance on both CPU and GPU.
+                        <br>• Implemented a data processing pipeline using Python, and Pickle for efficient handling of large text datasets,
+                        incorporating techniques like token embedding and positional encoding.</p>
+                    <a href="https://github.com/Ayush7970/learn_llm"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/project2.png" alt="">
+                <div class="layer">
+                    <h3>VectorDriveAI: PyTorch and PostgreSQL</h3>
+                    <p>• Developed a secure data classification system using GPT-based models and PGVectorStore, integrating Google Drive with
+                    options for OpenAI API or Ollama for sensitive data detection and classification.
+                    <br>• Implemented a scalable vector search solution with PostgreSQL pgvector, supporting both OpenAI and Ollama
+                    embeddings, for efficient document retrieval and real-time sensitivity scoring.</p>
+                    <a href="https://github.com/Ayush7970/VectorDriveAI"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/project3.png" alt="">
+                <div class="layer">
+                    <h3>Super Health App: Received 1st price for UIC SparkHacks</h3>
+                    <p>• Developed Super Health App, a multifunctional health management platform, integrating telemedicine consultations,
+                    prescription management, reminders, and a mindful space, using Python and Tkinter.
+                    <br>• Overcame challenges such as SQL database integration, user input handling, and game integration, while achieving a
+                    working prototype within the SparkHacks-2024 hackathon timeframe, showcasing adaptability and technical proficiency.</p>
+                    <a href="https://github.com/Ayush7970/Super-Health-App"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/project4.png" alt="">
+                <div class="layer">
+                    <h3>Bertram Capital Project</h3>
+                    <p>• Engineered a Coffee Expenditure Management Application Prototype for Bertram Capital employees using Python and Tkinter,
+                    facilitating individual tracking of coffee preferences and expenditures with SQLite3 database integration.
+                    <br>• Implemented intuitive GUI features for order processing and financial overview, including automated debt calculation and
+                    equitable bill assignment based on historical payment data.</p>
+                    <a href="https://github.com/Ayush7970/Bertram-Capital-project"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/project5.png" alt="">
+                <div class="layer">
+                    <h3>fetch_test</h3>
+                    <p>• Developed an Android application using Retrofit and Gson for efficient API interactions, employing
+                    a singleton pattern for the API client to ensure optimal resource use and consistent data access.
+                    <br>• Implemented a RecyclerView Adapter to display data from a RESTful API in an Android app,
+                    optimizing list performance and memory management through Android's ViewHolder pattern.</p>
+                    <a href="https://github.com/Ayush7970/fetch_test"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/project6.png" alt="">
+                <div class="layer">
+                    <h3>Which Way: Game</h3>
+                    <p>• Developed 'Which Way?', a graphical Python game based on snakes and ladders for CS 111, 
+                    implementing interactive gameplay and object interactions using the Turtle module.
+                    <br>• Designed user interfaces and game mechanics, including ladders, snakes, and victory
+                    conditions using Python, enhancing user engagement through intuitive game flow and state management.</p>
+                    <a href="https://github.com/Ayush7970/Which-Way-"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+
+        </div>
+        <!-- <a href="#" class="button"> See more</a> -->
+    </div>
+</div>
+
+
+<!-----------------contact ------------------>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>ayush975600@gmail.com</p>
+                <p><i class="fa-solid fa-phone-volume"></i>(224) 358 9722</p>
+                <div class="social-icons">
+                    <!-- adding the links to account below -->
+                    <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                </div>
+                <a href="images/Ayush_Bhardwaj_resume2024.pdf" donwload class="button button2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class = "button button2"> Submit </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html
