@@ -70,4 +70,4 @@ Feel free to reach out for collaboration or any questions!
 - **LinkedIn:** [Visit my LinkedIn](https://linkedin.com)
 - **GitHub:** [Ayush on GitHub](https://github.com/Ayush7970)
 
-Thank you for visiting my portfolio. I look forward to the opportunity to discuss my projects and potential collaboration.
+Thank you for visiting my portfolio. I look forward to the opportunity to discuss my projects and potential collaborations.
