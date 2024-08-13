@@ -66,7 +66,7 @@ Details of extracurricular involvements and recognitions, such as being an Orien
 Feel free to reach out for collaboration or any questions!
 
 - **Email:** ayush975600@gmail.com
-- **Phone:** (224) 358 9722
+- **Phone:** (224) 358 8722
 - **LinkedIn:** [Visit my LinkedIn](https://linkedin.com)
 - **GitHub:** [Ayush on GitHub](https://github.com/Ayush7970)
 
